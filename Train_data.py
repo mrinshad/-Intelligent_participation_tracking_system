@@ -40,7 +40,7 @@ while True:
         break
 
     k = cv2.waitKey(100) & 0xff # Press 'ESC' for exiting video
-    if count > 9:
+    if count >15:
         break
 # When everything is done, release the capture
 
